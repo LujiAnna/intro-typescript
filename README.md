@@ -1,6 +1,6 @@
 # Typescript Intro
 
-> Tools like webpack will compile this down to regular JavaScript, so every browser can read it.
+> Tools like webpack will compile .ts files down to regular JavaScript, so every browser can read it.
 > [Docs](https://www.typescriptlang.org/)
 
 ✨ Mission
@@ -16,8 +16,11 @@ In some cases, we might want similar behaviour in JavaScript. If that's the case
 The src (source) folder contains your source file, that's the one where you will develop. The public folder will contain the resulting one (after compilation), which will be used by the index file.
 
 🌱 Must-have's
-- [ ] Install TypeScript globally on your system
-- [ ] Use a config file, and adapt it so it will compile from your src folder to the public folder. Run tsc to compile the src JS file. Load the result from the public folder in the index.html.
+- [x] Install TypeScript globally on your system. [via npm](https://www.typescriptlang.org/download) `npm install -g typescript`
+- [ ] Use a config file, and adapt it so it will compile from your src folder to the public folder. Run tsc to compile the src JS file. Load the result from the public folder in the index.html. 
+   - You can then run the TypeScript compiler using one of the following commands: `npx tsc`
+   - [Converting a JavaScript codebase over to TypeScript](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
+   - write a config file: `touch tsconfig.json`
 - [ ] Time to look around in the TypeScript possibilities. Some recommendations to read:
 * Basic types
 * TypeScript in 5 minutes
@@ -35,19 +38,21 @@ The src (source) folder contains your source file, that's the one where you will
 - Usually, you will use Webpack to compile a bunch of things (the styling, for example) instead of just TypeScript. Move your application over to compile via webpack.
 
 ## The second mission
-- Team challenge : solo
 - Repository: the-impossible-quiz
-
 - Duration: 3 days
 - Create "The impossible quiz", completely with typescript.
 
 🌱 Must-have's
 - 10 pages, each with a question and an input field for an answer.
 When wrong -> try again message | When right -> move to next page (next question).
+
+
 🌼 Nice-to-have's (Doable)
 - Use different types of answers (numbers, strings, arrays, etc).
 - Add/remove lives for correct and wrong answers.
 - Add a timer on all the questions. (time up = lose life)
+
+
 🌳 Nice-to-have's (hard)
 - Create a user input at the start of the game to play with a username.
 - Add animation to the pages.
