@@ -17,25 +17,24 @@ The src (source) folder contains your source file, that's the one where you will
 
 🌱 Must-have's
 - [x] Install TypeScript globally on your system. [via npm](https://www.typescriptlang.org/download) `npm install -g typescript`
-- [ ] Use a config file, and adapt it so it will compile from your src folder to the public folder. Run tsc to compile the src JS file. Load the result from the public folder in the index.html. 
+- [x] Use a config file, and adapt it so it will compile from your src folder to the public folder. Run tsc to compile the src JS file. Load the result from the public folder in the index.html. 
    - You can then run the TypeScript compiler using one of the following commands: `npx tsc`
    - [Converting a JavaScript codebase over to TypeScript](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
-   - write a config file: `touch tsconfig.json`
-- [ ] Time to look around in the TypeScript possibilities. Some recommendations to read:
-* Basic types
-* TypeScript in 5 minutes
-* Find some interesting docs? Share it with your peers and coach!
-- [ ] Switch your source file to a TypeScript file. Since TypeScript behaves more strict than regular JavaScript, we'll need to adapt the code for it to work again. Check for any errors coming up and fix them.
+   - Create and write a config file: `touch tsconfig.json`
+   - If you’re looking to convert a React project, we recommend looking at [the React Conversion Guide first](https://github.com/Microsoft/TypeScript-React-Conversion-Guide#typescript-react-conversion-guide).
+- [x] Time to look around in the TypeScript possibilities. Some recommendations to read:
+* [Basic types](https://github.com/becodeorg/gnt-verou-2/tree/main/3.The-Mountain/14.Typescript)
+* [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)
+- [x] Switch your source file to a TypeScript file. Since TypeScript behaves more strict than regular JavaScript, we'll need to adapt the code for it to work again. Check for any errors coming up and fix them.
+   - The first step is to rename one of your .js files to .ts. If your file uses JSX, you’ll need to rename it to .tsx
 - [ ] We've fixed the errors, is there more we can do? Let's make the best out of the typing system and add a type to all our variables. Lastly, what about the functions - anything we should adapt there? Tip: switch to strict compiling now. This will force you to make as much use of TypeScript as possible.
-- [ ] Usually, you will use Webpack to compile a bunch of things (the styling, for example) instead of just TypeScript. Move your application over to compile via webpack.
 
 ⚙️ Tools
-- [ ] VSCode: Markdown, TypeScript, HTML
+- [x] VSCode: Markdown, TypeScript, HTML
 - [ ] NPM: Webpack
 
-
 🌼 Nice-to-have's (Doable)
-- Usually, you will use Webpack to compile a bunch of things (the styling, for example) instead of just TypeScript. Move your application over to compile via webpack.
+- [ ] Usually, you will use Webpack to compile a bunch of things (the styling, for example) instead of just TypeScript. Move your application over to compile via webpack.
 
 ## The second mission
 - Repository: the-impossible-quiz
