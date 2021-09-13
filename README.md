@@ -21,7 +21,7 @@ The src (source) folder contains your source file, that's the one where you will
 * [Basic types](https://github.com/becodeorg/gnt-verou-2/tree/main/3.The-Mountain/14.Typescript)
 * [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)
 - [x] Switch your source file to a TypeScript file. Since TypeScript behaves more strict than regular JavaScript, we'll need to adapt the code for it to work again. Check for any errors coming up and fix them.
-- [ ] We've fixed the errors, is there more we can do? Let's make the best out of the typing system and add a type to all our variables. Lastly, what about the functions - anything we should adapt there? Tip: switch to strict compiling now. This will force you to make as much use of TypeScript as possible.
+- [x] We've fixed the errors, is there more we can do? Let's make the best out of the typing system and add a type to all our variables. Lastly, what about the functions - anything we should adapt there? Tip: switch to strict compiling now. This will force you to make as much use of TypeScript as possible.
 
 ⚙️ Tools
 - [x] VSCode: Markdown, TypeScript, HTML

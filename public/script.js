@@ -5,7 +5,7 @@
         var secretNumber = generateSecretNumber();
         var userNumber = document.getElementById('guess').value;
         // console.log(userNumber);
-        if (secretNumber == userNumber) {
+        if (secretNumber == parseInt(userNumber)) {
             alert("Awesome! You number " + userNumber + " was correct. You can be named many things, hungry not being one of them.");
         }
         else {
