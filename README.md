@@ -25,7 +25,7 @@ The src (source) folder contains your source file, that's the one where you will
 
 ⚙️ Tools
 - [x] VSCode: Markdown, TypeScript, HTML
-- [ ] NPM: Webpack
+- [!] NPM: Webpack
 
 🌼 Nice-to-have's (Doable)
 - [ ] Usually, you will use Webpack to compile a bunch of things (the styling, for example) instead of just TypeScript. Move your application over to compile via webpack.
